@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #0a0794;
+    --secondary-color: #7aac29;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+body {
+    background-color: var(--secondary-color);
+}

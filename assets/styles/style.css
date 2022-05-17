@@ -1,6 +1,45 @@
 :root {
-    --primary-color: #0a0794;
-    --secondary-color: #7aac29;
+    --primary-color: #2759ff;
+    --secondary-color: #bce3ff;
+    --tertiary-color: #8400ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+}
+
+/* Header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    width: 80%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 15px;
 }
 
 h1 {
@@ -9,6 +48,26 @@ h1 {
     color: var(--primary-color);
 }
 
-body {
-    background-color: var(--secondary-color);
+section {
+    margin: 30px;
+}
+
+.section-title {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+#profile-pic {
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 45%;
+}
+
+footer {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }

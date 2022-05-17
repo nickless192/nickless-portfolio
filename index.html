@@ -7,8 +7,8 @@
     </head>
     <body>
         <header>
-            <h1>My Portfolio</h1>
-            <div>
+            <h1><a href="#">My Portfolio</a></h1>
+            <nav>
                 <ul>
                     <li>
                         <a href="#about-me">About Me</a>
@@ -20,7 +20,7 @@
                         <a href="#contact-me">Contact Me</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </header>
         <!-- start hero section -->
         <section class="hero">
@@ -29,28 +29,100 @@
         
         <!-- About Me section -->
         <section id="about-me">
-            <h2>About Me</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quasi labore ipsam tenetur sequi in nesciunt eaque laudantium consectetur, ipsum itaque ipsa vel, nemo facere!
-            </p>
+            <article>
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    My name is Omar Rodriguez, <br />
+                    I am a beginner web develop <br />
+                    and this is my Portfolio. <br />
+                    Nickless is a fun nickname <br />
+                    I like to use on the web, <br />
+                    hence why you'll see it everywhere here.
+                </p>
+                <h3>Curious to know things I like? Here are a few:</h3>
+                <ul>
+                    <li>
+                        Music
+                    </li>
+                    <li>
+                        Web Development
+                    </li>
+                    <li>
+                        Dancing
+                    </li>
+                    <li>
+                        Squash (the sport)
+                    </li>
+                    <li>
+                        ... and much more
+                    </li>
+                </ul>
+            </article>
+            <img src="./assets/images/profile-pic.jpg" alt="Omar in front of the CN Tower in Toronto" id="profile-pic" />
         </section>
 
         <!-- My Work section -->
         <section id="my-work">
-            <h2>My Work</h2>
+            <h2 class="section-title">My Work</h2>
             <p>Here's a list of my deployed projects:</p>
             <div>
                 <article>
-                    <img src="./assets/images/run-buddy-screenshot.png" />
+                    <div>
+                        <img src="./assets/images/run-buddy-screenshot.png" alt="Run Buddy 2.0 landing page showing its logo and hero section" />
+                    </div>
                     <a href="https://nickless192.github.io/run-buddy/">Run Buddy</a>
+                    <p>
+                        Here is the link to the GitHub Repository: <br />
+                        <a href="https://github.com/nickless192/run-buddy">https://github.com/nickless192/run-buddy</a> <br />
+                    </p>
                 </article>
                 <article>
-                    <a href="#">Project 2</a>
+                    <div>
+                        <img src="./assets/images/horiseon-screenshot.png" alt="Horiseon landing page showing its logo and hero section" />
+                    </div>
+                    <a href="https://nickless192.github.io/HoriseonLandingPage/">Horiseon</a>
+                    <p>
+                        Here is the link to the GitHub Repository: <br />
+                        <a href="https://github.com/nickless192/HoriseonLandingPage">https://github.com/nickless192/HoriseonLandingPage</a> <br />
+                    </p>
                 </article>
                 <article>
-                    <a href="#">Project 3</a>
+                    <div>
+                        <img src="./assets/images/robot-gradiators-screenshot.png" />
+                    </div>
+                    <a href="https://nickless192.github.io/robot-gladiators/">Robot Gladiator <span>Still in development</span></a>
+                    <p>
+                        Here is the link to the GitHub Repository: <br />
+                        <a href="https://github.com/nickless192/robot-gladiators">https://github.com/nickless192/robot-gladiators</a> <br />
+                    </p>
                 </article>
             </div>
         </section>
+
+        <!-- Contact Me section -->
+        <section id="contact-me">
+            <h2 class="section-title">Contact Me</h2>
+            <div>
+                <h3>Address</h3>
+                <address>
+                    123 Somewhere Road, apt 555 <br/>
+                    Cityplace, OO 98765
+                </address>
+                <h3>Phone number</h3>
+                <p>
+                    416-555-0123
+                </p>
+                <h3>Email Address</h3>
+                <a href="mailto:noone@somewhere.com">noone@somewhere.com</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h2>Made with ❤️ by Nickless192</h2>
+            <p>
+                &copy; 2022 Nickless192
+            </p>
+        </footer>
     </body>
 </html>

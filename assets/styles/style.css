@@ -21,15 +21,18 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     padding: 15px;
+    background-image: url(/assets/images/hero.jpg);
+    background-size: cover;
 }
 
 header a {
     text-decoration: none;
     color: var(--primary-color);
+    font-size: 36px;
 }
 
 header nav {
-    width: 80%;
+    width: 50%;
 }
 
 header nav ul {
@@ -40,6 +43,20 @@ header nav ul {
 
 header nav ul li {
     padding: 15px;
+    margin-left: 15px;
+}
+
+header nav ul a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul a:hover {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 15px;
 }
 
 h1 {
@@ -49,25 +66,70 @@ h1 {
 }
 
 section {
-    margin: 30px;
+    margin: 50px;
+}
+
+section ul {
+    margin: 10px 30px;
+    font-size: 16px;
+    line-height: 1.2;
+    list-style:circle;
+    font-weight: bold;
+}
+
+.projects {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.project img {
+    border: 2px solid var(--primary-color);
+    width: 40%;
+    
+}
+
+.project img:first-child {
+    width: 50%;
+}
+
+.project img:hover {
+    opacity: 80%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 15px;
 }
 
 .section-title {
     border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 500px;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-between;
+
+    
 }
 
 #profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    margin-right: 250px;
 }
 
-img {
-    width: 45%;
+h3 {
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 
 footer {
     margin: 40px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
 }

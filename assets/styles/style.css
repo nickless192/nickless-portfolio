@@ -77,7 +77,7 @@ section ul {
     font-weight: bold;
 }
 
-.projects {
+.project a {
     display: flex; 
     flex-wrap: wrap;
 }
@@ -88,8 +88,12 @@ section ul {
     
 }
 
-.project img:first-child {
-    width: 50%;
+/* .project a {
+    
+} */
+
+.project:first-child {
+    width: 100%;
 }
 
 .project img:hover {

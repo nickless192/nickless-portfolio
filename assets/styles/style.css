@@ -18,6 +18,7 @@ body {
 /* Header style */
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
     padding: 15px;
@@ -32,7 +33,7 @@ header a {
 }
 
 header nav {
-    width: 50%;
+    width: 60%;
 }
 
 header nav ul {
@@ -43,7 +44,7 @@ header nav ul {
 
 header nav ul li {
     padding: 15px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 header nav ul a {
@@ -77,27 +78,36 @@ section ul {
     font-weight: bold;
 }
 
-.project a {
-    display: flex; 
+.projects {
+    display: flex;
     flex-wrap: wrap;
-}
-
-.project img {
-    border: 2px solid var(--primary-color);
-    width: 40%;
-    
-}
-
-/* .project a {
-    
-} */
-
-.project:first-child {
+    justify-content: flex-start;
     width: 100%;
 }
 
-.project img:hover {
-    opacity: 80%;
+.project {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid var(--primary-color);
+}
+
+.project a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+.project a img {
+    width: 100%;
+}
+
+.project:first-of-type {
+    width: 100%;
 }
 
 p {
@@ -115,9 +125,8 @@ p {
 
 #about-me {
     display: flex;
+    align-items:flex-end;
     justify-content: space-between;
-
-    
 }
 
 #profile-pic {
@@ -136,4 +145,37 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER  */
+@media screen and (max-width: 980px) {
+
+
+
+    #about-me {
+        display: block;
+    }
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER  */
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER  */
+@media screen and (max-width: 575px) {
+
 }

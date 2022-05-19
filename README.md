@@ -3,7 +3,7 @@
 ## Description
 As required by the employer, I have put together my initial portfolio showchasing my progress so far as part of the Coding Bootcamp program.
 
-Upon reviewing the code and evaluating the site, the reviewer will evidence the use of flexbox, variables, media queries, pseudo-classes, as well as other concepts that were taught during the first module of class.
+Upon reviewing the code and evaluating the site, the reviewer will evidence the use of flexbox, variables, media queries, pseudo-classes, as well as other concepts that were taught during the first module of class. While reviewing the GitHup repository, the reviewer will also be able to read into the issues that were created during the development of this site, as well as the different branches that were created throughout the journey.
 
 ## User Story
 

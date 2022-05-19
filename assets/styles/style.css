@@ -20,10 +20,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     padding: 15px;
     background-image: url(/assets/images/hero.jpg);
     background-size: cover;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 header a {
@@ -78,6 +81,36 @@ section ul {
     font-weight: bold;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.section-title {
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 500px;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#profile-pic {
+    width: 350px;
+    margin-right: 100px;
+}
+
+#profile-pic:hover {
+    transform: rotate(180deg);
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -106,32 +139,12 @@ section ul {
     width: 100%;
 }
 
+.project a img:hover {
+    opacity: 70%;
+}
+
 .project:first-of-type {
     width: 100%;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.5;
-    padding-bottom: 15px;
-}
-
-.section-title {
-    border-bottom: 2px solid var(--primary-color);
-    margin-bottom: 20px;
-    display: inline-block;
-    width: 500px;
-}
-
-#about-me {
-    display: flex;
-    align-items:flex-end;
-    justify-content: space-between;
-}
-
-#profile-pic {
-    width: 350px;
-    margin-right: 250px;
 }
 
 h3 {
@@ -144,38 +157,36 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-content: center;
+}
+
+footer p {
+    line-height: 2;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER  */
 @media screen and (max-width: 980px) {
-
-
-
     #about-me {
         display: block;
     }
 
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER  */
-@media screen and (max-width: 768px) {
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER  */
+@media screen and (max-width: 575px) {
     header {
         justify-content: center;
+        position: relative;
     }
-
     header h1 {
         width: 100%;
         text-align: center;
+        position: absolute;
     }
     header nav ul {
         margin-top: 10px;
         width: 100%;
         justify-content: center;
+        position: absolute;
     }
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER  */
-@media screen and (max-width: 575px) {
-
 }

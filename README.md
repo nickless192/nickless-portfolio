@@ -1,7 +1,9 @@
 # My Portfolio
 
 ## Description
+As required by the employer, I have put together my initial portfolio showchasing my progress so far as part of the Coding Bootcamp program.
 
+Upon reviewing the code and evaluating the site, the reviewer will evidence the use of flexbox, variables, media queries, pseudo-classes, as well as other concepts that were taught during the first module of class.
 
 ## User Story
 
@@ -26,7 +28,7 @@ WHEN I resize the page or view the site on various screens and devices<br />
 THEN I am presented with a responsive layout that adapts to my viewport<br />
 
 ## Screenshot of Deployed Site
-![My Portfolio Landing Page](./assets/images/HoriseonHeroScreenshot.png)
+![My Portfolio Landing Page](./assets/images/myportfolio-screenshot-gitpage.png)
 
 ## Links
 
@@ -34,3 +36,6 @@ GitHub link: https://github.com/nickless192/nickless-portfolio
 
 Deployed Page: https://nickless192.github.io/nickless-portfolio/
 
+## Contributors
+
+Made with ❤️ by Nickless192 (Omar Rodriguez)

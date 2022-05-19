@@ -15,7 +15,7 @@ body {
     background-color: var(--secondary-color);
 }
 
-/* Header style */
+/* Header style start */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -48,7 +48,6 @@ header nav ul {
 
 header nav ul li {
     padding: 15px;
-    /* margin-left: 15px; */
 }
 
 header nav ul a {
@@ -63,6 +62,7 @@ header nav ul a:hover {
     background-color: var(--primary-color);
     border-radius: 15px;
 }
+/* Header style end */
 
 h1 {
     font-size: 32px;
@@ -95,6 +95,7 @@ p {
     width: 500px;
 }
 
+/* About Me style start */
 #about-me {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +112,9 @@ p {
 #profile-pic:hover {
     transform: rotate(180deg);
 }
+/* About Me style end */
 
+/* My Work style start */
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +150,9 @@ p {
 .project:first-of-type {
     width: 100%;
 }
+/* My Work style end */
 
+/* Contact me style start */
 #contact-me h3 {
     line-height: 1.5;
     margin-bottom: 10px;
@@ -166,7 +171,9 @@ p {
     color: var(--tertiary-color);
     font-size: 20px;
 }
+/* Contact me style end */
 
+/* Footer style start */
 footer {
     margin: 40px;
     display: flex;
@@ -178,6 +185,7 @@ footer {
 footer p {
     line-height: 2;
 }
+/* Footer style end */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER  */
 @media screen and (max-width: 980px) {

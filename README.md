@@ -30,6 +30,7 @@ THEN I am presented with a responsive layout that adapts to my viewport<br />
 
 ## Links
 
-GitHub link: https://github.com/nickless192/HoriseonLandingPage
+GitHub link: https://github.com/nickless192/nickless-portfolio
 
-Deployed Page: https://nickless192.github.io/HoriseonLandingPage/
+Deployed Page: https://nickless192.github.io/nickless-portfolio/
+

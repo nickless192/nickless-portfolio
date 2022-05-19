@@ -25,3 +25,11 @@ THEN I am taken to that deployed application<br />
 WHEN I resize the page or view the site on various screens and devices<br />
 THEN I am presented with a responsive layout that adapts to my viewport<br />
 
+## Screenshot of Deployed Site
+![My Portfolio Landing Page](./assets/images/HoriseonHeroScreenshot.png)
+
+## Links
+
+GitHub link: https://github.com/nickless192/HoriseonLandingPage
+
+Deployed Page: https://nickless192.github.io/HoriseonLandingPage/

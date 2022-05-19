@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: white;
+    background-color: #fff;
     background-image: url("../images/hero.jpg");
     background-size: cover;
     position: sticky;
